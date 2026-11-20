@@ -1,0 +1,13 @@
+import "server-only";
+import Stripe from "stripe";
+
+let client: Stripe | null = null;
+
+export function stripe() {
+  const key = process.env.STRIPE_SECRET_KEY;
+  if (!key) throw new Error("Stripe is not configured");
+  client ??= new Stripe(key, { appInfo: { name: "Superhero Huff" } });
+  return client;
+}
+
+export const hasStripe = () => Boolean(process.env.STRIPE_SECRET_KEY);

@@ -1,0 +1,3931 @@
+{
+ "collections": [
+  {
+   "slug": "black-majic",
+   "name": "Black Majic",
+   "tagline": "Experience the magic of Superhero Huff!",
+   "issue": 1,
+   "cover": "/products/black-majic-zipper-jacket-1.webp",
+   "count": 4
+  },
+  {
+   "slug": "lioness-calm",
+   "name": "Lioness Calm",
+   "tagline": "The calm before the storm!",
+   "issue": 2,
+   "cover": "/products/lioness-calm-tee-1.webp",
+   "count": 4
+  },
+  {
+   "slug": "peaceful-powerful",
+   "name": "Peaceful Powerful",
+   "tagline": "Experience the calm force of Superhero Huff!",
+   "issue": 3,
+   "cover": "/products/peaceful-powerful-zipper-jacket-1.webp",
+   "count": 10
+  },
+  {
+   "slug": "punch-superhero-huff",
+   "name": "Punch Superhero Huff",
+   "tagline": "Superhero Huff takes crime into her own hands!",
+   "issue": 4,
+   "cover": "/products/punch-superhero-huff-jacket-1.webp",
+   "count": 1
+  },
+  {
+   "slug": "unleashed",
+   "name": "Unleashed",
+   "tagline": "The strength of Superhero Huff has been unleashed!",
+   "issue": 5,
+   "cover": "/products/unleashed-tee-1.webp",
+   "count": 4
+  },
+  {
+   "slug": "vortex-superhero-huff",
+   "name": "Vortex Superhero Huff",
+   "tagline": "Superhero Huff unleashes her vortex power on her enemies!",
+   "issue": 6,
+   "cover": "/products/vortex-1.webp",
+   "count": 3
+  },
+  {
+   "slug": "purple-thrust",
+   "name": "Purple Thrust",
+   "tagline": "Superhero Huff cannot be stopped!",
+   "issue": 7,
+   "cover": "/products/purple-passion-1.webp",
+   "count": 2
+  },
+  {
+   "slug": "propel",
+   "name": "Propel",
+   "tagline": "Experience the power of Superhero Huff!",
+   "issue": 8,
+   "cover": "/products/propel-1.webp",
+   "count": 6
+  },
+  {
+   "slug": "release",
+   "name": "Release",
+   "tagline": "Let it go. Let it fly.",
+   "issue": 9,
+   "cover": "/products/release-tee-2-1.webp",
+   "count": 2
+  }
+ ],
+ "categories": [
+  {
+   "slug": "t-shirts",
+   "name": "T-Shirts",
+   "count": 9
+  },
+  {
+   "slug": "leggings",
+   "name": "Leggings",
+   "count": 6
+  },
+  {
+   "slug": "jackets",
+   "name": "Jackets",
+   "count": 25
+  },
+  {
+   "slug": "sets",
+   "name": "Sets",
+   "count": 6
+  },
+  {
+   "slug": "hoodies",
+   "name": "Hoodies",
+   "count": 1
+  },
+  {
+   "slug": "womens",
+   "name": "Women's",
+   "count": 17
+  },
+  {
+   "slug": "kids",
+   "name": "Kids",
+   "count": 1
+  },
+  {
+   "slug": "comics",
+   "name": "Comics",
+   "count": 6
+  },
+  {
+   "slug": "posters",
+   "name": "Metal Posters",
+   "count": 1
+  },
+  {
+   "slug": "custom",
+   "name": "Custom",
+   "count": 1
+  }
+ ],
+ "products": [
+  {
+   "slug": "propel",
+   "legacy_slug": "propel",
+   "name": "Propel Adult T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "propel",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/propel-1.webp",
+     "width": 1333,
+     "height": 1333,
+     "alt": "Propel Adult T-Shirt"
+    },
+    {
+     "src": "/products/propel-2.webp",
+     "width": 1103,
+     "height": 1400,
+     "alt": "Propel Adult T-Shirt — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2018-05-04 10:20:21"
+  },
+  {
+   "slug": "purple-passion",
+   "legacy_slug": "purple-passion",
+   "name": "Purple Thrust Adult T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "purple-thrust",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/purple-passion-1.webp",
+     "width": 700,
+     "height": 700,
+     "alt": "Purple Thrust Adult T-Shirt"
+    },
+    {
+     "src": "/products/purple-passion-2.webp",
+     "width": 700,
+     "height": 700,
+     "alt": "Purple Thrust Adult T-Shirt — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2018-05-04 10:26:12"
+  },
+  {
+   "slug": "release-tee-2",
+   "legacy_slug": "release-tee-2",
+   "name": "Release Adult T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 40.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "release",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/release-tee-2-1.webp",
+     "width": 700,
+     "height": 700,
+     "alt": "Release Adult T-Shirt"
+    },
+    {
+     "src": "/products/release-tee-2-2.webp",
+     "width": 700,
+     "height": 700,
+     "alt": "Release Adult T-Shirt — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 40.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 40.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 40.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 40.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 40.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2018-05-04 10:44:58"
+  },
+  {
+   "slug": "vortex",
+   "legacy_slug": "vortex",
+   "name": "Vortex Adult T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "vortex-superhero-huff",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/vortex-1.webp",
+     "width": 700,
+     "height": 700,
+     "alt": "Vortex Adult T-Shirt"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2018-05-04 10:52:30"
+  },
+  {
+   "slug": "dane-warrior",
+   "legacy_slug": "dane-warrior",
+   "name": "Dane Warrior",
+   "description": "",
+   "price": 20,
+   "compare_at_price": null,
+   "categories": [
+    "kids"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/dane-warrior-1.webp",
+     "width": 1036,
+     "height": 1400,
+     "alt": "Dane Warrior"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "XS",
+     "color": null,
+     "price": 20,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 20,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 20,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 20,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2018-05-04 11:31:05"
+  },
+  {
+   "slug": "engendering-strength-1",
+   "legacy_slug": "engendering-strength-1",
+   "name": "Engendering Strength #1",
+   "description": "",
+   "price": 10,
+   "compare_at_price": null,
+   "categories": [
+    "comics"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/engendering-strength-1-1.webp",
+     "width": 1000,
+     "height": 1334,
+     "alt": "Engendering Strength #1"
+    }
+   ],
+   "variants": [],
+   "created_at": "2018-05-14 10:41:49"
+  },
+  {
+   "slug": "engendering-strength-2",
+   "legacy_slug": "engendering-strength-2",
+   "name": "Engendering Strength #2",
+   "description": "",
+   "price": 10,
+   "compare_at_price": null,
+   "categories": [
+    "comics"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/engendering-strength-2-1.webp",
+     "width": 1000,
+     "height": 1334,
+     "alt": "Engendering Strength #2"
+    }
+   ],
+   "variants": [],
+   "created_at": "2018-05-14 10:45:30"
+  },
+  {
+   "slug": "engendering-strength-3",
+   "legacy_slug": "engendering-strength-3",
+   "name": "Engendering Strength #3",
+   "description": "",
+   "price": 10,
+   "compare_at_price": null,
+   "categories": [
+    "comics"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/engendering-strength-3-1.webp",
+     "width": 1000,
+     "height": 1334,
+     "alt": "Engendering Strength #3"
+    }
+   ],
+   "variants": [],
+   "created_at": "2018-05-14 10:46:43"
+  },
+  {
+   "slug": "engendering-strength-4",
+   "legacy_slug": "engendering-strength-4",
+   "name": "Engendering Strength #4",
+   "description": "",
+   "price": 10,
+   "compare_at_price": null,
+   "categories": [
+    "comics"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/engendering-strength-4-1.webp",
+     "width": 1000,
+     "height": 1334,
+     "alt": "Engendering Strength #4"
+    }
+   ],
+   "variants": [],
+   "created_at": "2018-05-14 10:47:41"
+  },
+  {
+   "slug": "metal-posters",
+   "legacy_slug": "metal-posters",
+   "name": "Metal Posters",
+   "description": "",
+   "price": 15,
+   "compare_at_price": null,
+   "categories": [
+    "posters"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/metal-posters-1.webp",
+     "width": 906,
+     "height": 1400,
+     "alt": "Metal Posters"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "8\"x8\"",
+     "color": null,
+     "price": 15,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "8\"x10\"",
+     "color": null,
+     "price": 20,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "11\"x17\"",
+     "color": null,
+     "price": 25,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2018-06-12 18:27:42"
+  },
+  {
+   "slug": "10-custom-mask",
+   "legacy_slug": "10-custom-mask",
+   "name": "10 Custom Mask",
+   "description": "When you order you will send your desired image to my email.",
+   "price": 50,
+   "compare_at_price": null,
+   "categories": [
+    "custom"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/10-custom-mask-1.webp",
+     "width": 766,
+     "height": 767,
+     "alt": "10 Custom Mask"
+    }
+   ],
+   "variants": [],
+   "created_at": "2020-10-04 13:29:49"
+  },
+  {
+   "slug": "peaceful-powerful-zipper-jacket",
+   "legacy_slug": "peaceful-powerful-zipper-jacket",
+   "name": "Peaceful Powerful Zipper Jacket",
+   "description": "",
+   "price": 54.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-zipper-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Zipper Jacket"
+    },
+    {
+     "src": "/products/peaceful-powerful-zipper-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Zipper Jacket — view 2"
+    }
+   ],
+   "variants": [],
+   "created_at": "2022-08-23 18:58:15"
+  },
+  {
+   "slug": "peaceful-powerful-off-the-shoulder",
+   "legacy_slug": "peaceful-powerful-off-the-shoulder",
+   "name": "Peaceful Powerful Off the Shoulder Hoodie",
+   "description": "Off the shoulder 90% Polyester 10% spandex, standard fit, adjustable drawstring hood, front pocket, all over sublimated print. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 65.99,
+   "compare_at_price": null,
+   "categories": [
+    "hoodies"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-off-the-shoulder-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Off the Shoulder Hoodie"
+    },
+    {
+     "src": "/products/peaceful-powerful-off-the-shoulder-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Off the Shoulder Hoodie — view 2"
+    },
+    {
+     "src": "/products/peaceful-powerful-off-the-shoulder-3.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Off the Shoulder Hoodie — view 3"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 65.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 65.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 65.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 65.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 75.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 75.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-08-23 19:04:13"
+  },
+  {
+   "slug": "release-leggings",
+   "legacy_slug": "release-leggings",
+   "name": "Release Leggings",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners.",
+   "price": 64.99,
+   "compare_at_price": null,
+   "categories": [
+    "leggings"
+   ],
+   "collection": "release",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/release-leggings-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Release Leggings"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-08-24 08:32:28"
+  },
+  {
+   "slug": "vortex-superhero-jacket",
+   "legacy_slug": "vortex-superhero-jacket",
+   "name": "Vortex Superhero Baseball Jacket",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 80.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "vortex-superhero-huff",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/vortex-superhero-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Vortex Superhero Baseball Jacket"
+    },
+    {
+     "src": "/products/vortex-superhero-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Vortex Superhero Baseball Jacket — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-08-24 08:39:44"
+  },
+  {
+   "slug": "book-of-confidence",
+   "legacy_slug": "book-of-confidence",
+   "name": "Book of Confidence",
+   "description": "",
+   "price": 10,
+   "compare_at_price": null,
+   "categories": [
+    "comics"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/book-of-confidence-1.webp",
+     "width": 1000,
+     "height": 1334,
+     "alt": "Book of Confidence"
+    }
+   ],
+   "variants": [],
+   "created_at": "2022-08-31 17:04:18"
+  },
+  {
+   "slug": "justice-of-truth",
+   "legacy_slug": "justice-of-truth",
+   "name": "Justice of Truth",
+   "description": "",
+   "price": 10,
+   "compare_at_price": null,
+   "categories": [
+    "comics"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/justice-of-truth-1.webp",
+     "width": 1000,
+     "height": 1334,
+     "alt": "Justice of Truth"
+    }
+   ],
+   "variants": [],
+   "created_at": "2022-08-31 17:33:37"
+  },
+  {
+   "slug": "unleashed-tee",
+   "legacy_slug": "unleashed-tee",
+   "name": "Unleashed Adult T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "unleashed",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/unleashed-tee-1.webp",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Unleashed Adult T-Shirt"
+    },
+    {
+     "src": "/products/unleashed-tee-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Unleashed Adult T-Shirt — view 2"
+    },
+    {
+     "src": "/products/unleashed-tee-3.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Unleashed Adult T-Shirt — view 3"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 13:50:37"
+  },
+  {
+   "slug": "peaceful-powerful-collage-long-tee",
+   "legacy_slug": "peaceful-powerful-collage-long-tee",
+   "name": "Peaceful Powerful V-Neck T-Shirt Dress",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-collage-long-tee-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful V-Neck T-Shirt Dress"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 14:00:15"
+  },
+  {
+   "slug": "peaceful-powerful-collage-tee",
+   "legacy_slug": "peaceful-powerful-collage-tee",
+   "name": "Peaceful Powerful Collage Adult T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-collage-tee-1.webp",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Peaceful Powerful Collage Adult T-Shirt"
+    },
+    {
+     "src": "/products/peaceful-powerful-collage-tee-2.webp",
+     "width": 1360,
+     "height": 1360,
+     "alt": "Peaceful Powerful Collage Adult T-Shirt — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 14:02:57"
+  },
+  {
+   "slug": "lioness-calm-tee",
+   "legacy_slug": "lioness-calm-tee",
+   "name": "Lioness Calm Adult T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "lioness-calm",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/lioness-calm-tee-1.webp",
+     "width": 700,
+     "height": 700,
+     "alt": "Lioness Calm Adult T-Shirt"
+    },
+    {
+     "src": "/products/lioness-calm-tee-2.webp",
+     "width": 700,
+     "height": 700,
+     "alt": "Lioness Calm Adult T-Shirt — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 48.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 14:05:10"
+  },
+  {
+   "slug": "unleashed-jacket",
+   "legacy_slug": "unleashed-jacket",
+   "name": "Unleashed Baseball Jacket",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 80.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "unleashed",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/unleashed-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Unleashed Baseball Jacket"
+    },
+    {
+     "src": "/products/unleashed-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Unleashed Baseball Jacket — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 14:54:06"
+  },
+  {
+   "slug": "propel-jacket",
+   "legacy_slug": "propel-jacket",
+   "name": "Propel Baseball Jacket",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 80.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "propel",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/propel-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel Baseball Jacket"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 14:57:14"
+  },
+  {
+   "slug": "peaceful-powerful-jacket-2",
+   "legacy_slug": "peaceful-powerful-jacket-2",
+   "name": "Peaceful Powerful Baseball Jacket",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 80.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-jacket-2-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Baseball Jacket"
+    },
+    {
+     "src": "/products/peaceful-powerful-jacket-2-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Baseball Jacket — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 14:58:58"
+  },
+  {
+   "slug": "lioness-calm-jacket",
+   "legacy_slug": "lioness-calm-jacket",
+   "name": "Lioness Calm Baseball Jacket",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 80.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "lioness-calm",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/lioness-calm-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm Baseball Jacket"
+    },
+    {
+     "src": "/products/lioness-calm-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm Baseball Jacket — view 2"
+    },
+    {
+     "src": "/products/lioness-calm-jacket-3.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm Baseball Jacket — view 3"
+    },
+    {
+     "src": "/products/lioness-calm-jacket-4.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm Baseball Jacket — view 4"
+    },
+    {
+     "src": "/products/lioness-calm-jacket-5.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm Baseball Jacket — view 5"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:01:31"
+  },
+  {
+   "slug": "sparking-energy",
+   "legacy_slug": "sparking-energy",
+   "name": "Sparking Energy Baseball Jacket",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 80.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/sparking-energy-1.webp",
+     "width": 681,
+     "height": 506,
+     "alt": "Sparking Energy Baseball Jacket"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:03:59"
+  },
+  {
+   "slug": "peaceful-powerful",
+   "legacy_slug": "peaceful-powerful",
+   "name": "Peaceful Powerful Baseball Jacket",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 80.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-1.webp",
+     "width": 304,
+     "height": 306,
+     "alt": "Peaceful Powerful Baseball Jacket"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 80.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:10:09"
+  },
+  {
+   "slug": "sh-graffiti-jacket",
+   "legacy_slug": "sh-graffiti-jacket",
+   "name": "SH Graffiti High Waist Motorcycle Jacket with Flexible Collar",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 90.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/sh-graffiti-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "SH Graffiti High Waist Motorcycle Jacket with Flexible Collar"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:16:45"
+  },
+  {
+   "slug": "punch-superhero-huff-jacket",
+   "legacy_slug": "punch-superhero-huff-jacket",
+   "name": "Punch Superhero Huff High Waist Motorcycle Jacket with Flexible Collar",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 90.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "punch-superhero-huff",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/punch-superhero-huff-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Punch Superhero Huff High Waist Motorcycle Jacket with Flexible Collar"
+    },
+    {
+     "src": "/products/punch-superhero-huff-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Punch Superhero Huff High Waist Motorcycle Jacket with Flexible Collar — view 2"
+    },
+    {
+     "src": "/products/punch-superhero-huff-jacket-3.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Punch Superhero Huff High Waist Motorcycle Jacket with Flexible Collar — view 3"
+    },
+    {
+     "src": "/products/punch-superhero-huff-jacket-4.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Punch Superhero Huff High Waist Motorcycle Jacket with Flexible Collar — view 4"
+    },
+    {
+     "src": "/products/punch-superhero-huff-jacket-5.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Punch Superhero Huff High Waist Motorcycle Jacket with Flexible Collar — view 5"
+    },
+    {
+     "src": "/products/punch-superhero-huff-jacket-6.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Punch Superhero Huff High Waist Motorcycle Jacket with Flexible Collar — view 6"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:23:19"
+  },
+  {
+   "slug": "powerful-peaceful-zipper-jacket",
+   "legacy_slug": "powerful-peaceful-zipper-jacket",
+   "name": "Peaceful Powerful Zipper High Waist Motorcycle Jacket with Flexible Collar",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 90.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/powerful-peaceful-zipper-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Zipper High Waist Motorcycle Jacket with Flexible Collar"
+    },
+    {
+     "src": "/products/peaceful-powerful-zipper-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Zipper High Waist Motorcycle Jacket with Flexible Collar — view 2"
+    },
+    {
+     "src": "/products/peaceful-powerful-zipper-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Zipper High Waist Motorcycle Jacket with Flexible Collar — view 3"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:26:14"
+  },
+  {
+   "slug": "black-majic-zipper-jacket",
+   "legacy_slug": "black-majic-zipper-jacket",
+   "name": "Black Majic High Waist Motorcycle Jacket with Flexible Collar",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 90.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "black-majic",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/black-majic-zipper-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Black Majic High Waist Motorcycle Jacket with Flexible Collar"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:31:12"
+  },
+  {
+   "slug": "trailblazer",
+   "legacy_slug": "trailblazer",
+   "name": "Trailblazer High Waist Motorcycle Jacket with Flexible Collar",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 90.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/trailblazer-1.webp",
+     "width": 999,
+     "height": 1400,
+     "alt": "Trailblazer High Waist Motorcycle Jacket with Flexible Collar"
+    },
+    {
+     "src": "/products/trailblazer-2.webp",
+     "width": 1200,
+     "height": 1308,
+     "alt": "Trailblazer High Waist Motorcycle Jacket with Flexible Collar — view 2"
+    },
+    {
+     "src": "/products/trailblazer-3.webp",
+     "width": 1109,
+     "height": 1400,
+     "alt": "Trailblazer High Waist Motorcycle Jacket with Flexible Collar — view 3"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:34:18"
+  },
+  {
+   "slug": "lioness-calm",
+   "legacy_slug": "lioness-calm",
+   "name": "Lioness Calm High Waist Motorcycle Jacket with Flexible Collar",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 90.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "lioness-calm",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/lioness-calm-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm High Waist Motorcycle Jacket with Flexible Collar"
+    },
+    {
+     "src": "/products/lioness-calm-3.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm High Waist Motorcycle Jacket with Flexible Collar — view 3"
+    },
+    {
+     "src": "/products/lioness-calm-4.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm High Waist Motorcycle Jacket with Flexible Collar — view 4"
+    },
+    {
+     "src": "/products/lioness-calm-5.webp",
+     "width": 1076,
+     "height": 1400,
+     "alt": "Lioness Calm High Waist Motorcycle Jacket with Flexible Collar — view 5"
+    },
+    {
+     "src": "/products/lioness-calm-6.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Lioness Calm High Waist Motorcycle Jacket with Flexible Collar — view 6"
+    },
+    {
+     "src": "/products/lioness-calm-7.webp",
+     "width": 1043,
+     "height": 1400,
+     "alt": "Lioness Calm High Waist Motorcycle Jacket with Flexible Collar — view 7"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:37:28"
+  },
+  {
+   "slug": "forward-power",
+   "legacy_slug": "forward-power",
+   "name": "Forward Power High Waist Motorcycle Jacket with Flexible Collar",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 90.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": null,
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/forward-power-1.webp",
+     "width": 988,
+     "height": 1400,
+     "alt": "Forward Power High Waist Motorcycle Jacket with Flexible Collar"
+    },
+    {
+     "src": "/products/forward-power-2.webp",
+     "width": 1200,
+     "height": 1368,
+     "alt": "Forward Power High Waist Motorcycle Jacket with Flexible Collar — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 90.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:42:02"
+  },
+  {
+   "slug": "purple-thrust-tie-up-jacket",
+   "legacy_slug": "purple-thrust-tie-up-jacket",
+   "name": "Purple Thrust High Waist Motorcycle Jacket with Flexible Collar and Drawstring",
+   "description": "Mid-waist front zip drawstring high waist motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 105.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "purple-thrust",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/purple-thrust-tie-up-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Purple Thrust High Waist Motorcycle Jacket with Flexible Collar and Drawstring"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:44:08"
+  },
+  {
+   "slug": "propel-jacket-w-pockets",
+   "legacy_slug": "propel-jacket-w-pockets",
+   "name": "Propel High Waist Motorcycle Jacket with Flexible Collar and Drawstring",
+   "description": "Mid-waist front zip drawstring high waist motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 105.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "propel",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/propel-jacket-w-pockets-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel High Waist Motorcycle Jacket with Flexible Collar and Drawstring"
+    },
+    {
+     "src": "/products/propel-jacket-w-pockets-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel High Waist Motorcycle Jacket with Flexible Collar and Drawstring — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:47:44"
+  },
+  {
+   "slug": "peaceful-powerful-zip-untie",
+   "legacy_slug": "peaceful-powerful-zip-untie",
+   "name": "Peaceful Powerful High Waist Motorcycle Jacket with Flexible Collar and Drawstring",
+   "description": "Mid-waist front zip drawstring high waist motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners.",
+   "price": 105.99,
+   "compare_at_price": null,
+   "categories": [
+    "jackets"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-zip-untie-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful High Waist Motorcycle Jacket with Flexible Collar and Drawstring"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 105.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 15:49:34"
+  },
+  {
+   "slug": "propel-leggings",
+   "legacy_slug": "propel-leggings",
+   "name": "Propel Leggings",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners.",
+   "price": 64.99,
+   "compare_at_price": null,
+   "categories": [
+    "leggings"
+   ],
+   "collection": "propel",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/propel-leggings-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel Leggings"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 16:01:03"
+  },
+  {
+   "slug": "peaceful-powerful-leggings",
+   "legacy_slug": "peaceful-powerful-leggings",
+   "name": "Peaceful Powerful Leggings",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners.",
+   "price": 64.99,
+   "compare_at_price": null,
+   "categories": [
+    "leggings"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-leggings-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful  Powerful Leggings"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 16:02:21"
+  },
+  {
+   "slug": "blackmagic-leggings",
+   "legacy_slug": "blackmagic-leggings",
+   "name": "Black Majic Leggings",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners.",
+   "price": 64.99,
+   "compare_at_price": null,
+   "categories": [
+    "leggings"
+   ],
+   "collection": "black-majic",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/blackmagic-leggings-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Black Majic Leggings"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 16:03:50"
+  },
+  {
+   "slug": "black-majic-t-shirt",
+   "legacy_slug": "black-majic-t-shirt",
+   "name": "Black Majic T-Shirt",
+   "description": "High performance drywicking 100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 48.99,
+   "compare_at_price": null,
+   "categories": [
+    "t-shirts",
+    "womens"
+   ],
+   "collection": "black-majic",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/black-majic-t-shirt-1.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Black Majic T-Shirt"
+    },
+    {
+     "src": "/products/black-majic-t-shirt-2.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Black Majic T-Shirt — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "XS",
+     "color": null,
+     "price": 48.99,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 48.99,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 48.99,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 48.99,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 48.99,
+     "stock": 0,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 16:21:55"
+  },
+  {
+   "slug": "lioness-calm-leggings",
+   "legacy_slug": "lioness-calm-leggings",
+   "name": "Lioness Calm Leggings",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners.",
+   "price": 64.99,
+   "compare_at_price": null,
+   "categories": [
+    "leggings"
+   ],
+   "collection": "lioness-calm",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/lioness-calm-leggings-1.webp",
+     "width": 1400,
+     "height": 1400,
+     "alt": "Lioness Calm Leggings"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-08 19:45:05"
+  },
+  {
+   "slug": "vortex-superhero-jacket-tee-set",
+   "legacy_slug": "vortex-superhero-jacket-tee-set",
+   "name": "Vortex Jacket and Shirt Set",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners.",
+   "price": 111.98,
+   "compare_at_price": null,
+   "categories": [
+    "sets"
+   ],
+   "collection": "vortex-superhero-huff",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/vortex-superhero-jacket-tee-set-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Vortex Jacket and Shirt Set"
+    },
+    {
+     "src": "/products/vortex-superhero-jacket-tee-set-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Vortex Jacket and Shirt Set — view 2"
+    },
+    {
+     "src": "/products/vortex-superhero-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Vortex Jacket and Shirt Set — view 3"
+    },
+    {
+     "src": "/products/vortex-superhero-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Vortex Jacket and Shirt Set — view 4"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 111.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 111.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 111.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 111.98,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-09 13:16:15"
+  },
+  {
+   "slug": "unleashed-adult-t-shirt-and-leggings-set",
+   "legacy_slug": "unleashed-adult-t-shirt-and-leggings-set",
+   "name": "Unleashed Adult T-Shirt and Leggings Set",
+   "description": "High performance drywicking100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners. Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners. Set includes Leggings.",
+   "price": 95.98,
+   "compare_at_price": null,
+   "categories": [
+    "sets",
+    "womens"
+   ],
+   "collection": "unleashed",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/unleashed-adult-t-shirt-and-leggings-set-1.webp",
+     "width": 900,
+     "height": 900,
+     "alt": "Unleashed Adult T-Shirt and Leggings Set"
+    },
+    {
+     "src": "/products/unleashed-adult-t-shirt-and-leggings-set-2.webp",
+     "width": 1400,
+     "height": 1400,
+     "alt": "Unleashed Adult T-Shirt and Leggings Set — view 2"
+    },
+    {
+     "src": "/products/unleashed-tee-3.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Unleashed Adult T-Shirt and Leggings Set — view 3"
+    },
+    {
+     "src": "/products/unleashed-tee-1.webp",
+     "width": 1200,
+     "height": 1200,
+     "alt": "Unleashed Adult T-Shirt and Leggings Set — view 4"
+    },
+    {
+     "src": "/products/unleashed-tee-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Unleashed Adult T-Shirt and Leggings Set — view 5"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 105.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 110.98,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-09 13:23:58"
+  },
+  {
+   "slug": "propel-shirt-and-leggings-set",
+   "legacy_slug": "propel-shirt-and-leggings-set",
+   "name": "Propel Shirt and Leggings Set",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners. High performance drywicking100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 95.98,
+   "compare_at_price": null,
+   "categories": [
+    "sets"
+   ],
+   "collection": "propel",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/propel-1.webp",
+     "width": 1333,
+     "height": 1333,
+     "alt": "Propel Shirt and Leggings Set"
+    },
+    {
+     "src": "/products/propel-leggings-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel Shirt and Leggings Set — view 2"
+    },
+    {
+     "src": "/products/propel-2.webp",
+     "width": 1103,
+     "height": 1400,
+     "alt": "Propel Shirt and Leggings Set — view 3"
+    },
+    {
+     "src": "/products/propel-shirt-and-leggings-set-4.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel Shirt and Leggings Set — view 4"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 95.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 105.98,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 110.98,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-09 13:40:34"
+  },
+  {
+   "slug": "propel-jacket-v-neck-dress-and-mask-set",
+   "legacy_slug": "propel-jacket-v-neck-dress-and-mask-set",
+   "name": "Propel Jacket, V-Neck Dress and Mask Set",
+   "description": "Baseball Jackets 100% polyester standard fit, front zip, side pockets, all over sublimated print. Care machine wash gentle cycle cold, hang to dry no dryer no dry cleaners. High performance drywicking100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners.",
+   "price": 175.96,
+   "compare_at_price": null,
+   "categories": [
+    "sets"
+   ],
+   "collection": "propel",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/propel-jacket-v-neck-dress-and-mask-set-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel Jacket, V-Neck Dress and Mask Set"
+    },
+    {
+     "src": "/products/propel-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Propel Jacket, V-Neck Dress and Mask Set — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 175.96,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 175.96,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 175.96,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 175.96,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-09 13:47:11"
+  },
+  {
+   "slug": "peaceful-powerful-leggings-motor-cycle-jacket-shirt-and-mask-set",
+   "legacy_slug": "peaceful-powerful-leggings-motor-cycle-jacket-shirt-and-mask-set",
+   "name": "Peaceful Powerful Leggings, Motor Cycle Jacket, Shirt and Mask Set",
+   "description": "Mid-waist front zip motorcycle jacket 100% polyester elastic waist, metal zipper, side pockets, flexible collar, all over sublimated print, standard fit, stretchy, heavyweight. Care machine wash gentle cycle cold hang to dry no dryer no dry cleaners. High performance drywicking100% polyester that have full color all over front sublimated t-shirts. These shirts are true to size. Care is wash cold hang to dry no dryer no dry cleaners. Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners.",
+   "price": 197.96,
+   "compare_at_price": null,
+   "categories": [
+    "sets"
+   ],
+   "collection": "peaceful-powerful",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/peaceful-powerful-leggings-motor-cycle-jacket-shirt-and-mask-set-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Leggings, Motor Cycle Jacket, Shirt and Mask Set"
+    },
+    {
+     "src": "/products/peaceful-powerful-leggings-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Leggings, Motor Cycle Jacket, Shirt and Mask Set — view 2"
+    },
+    {
+     "src": "/products/powerful-peaceful-zipper-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Leggings, Motor Cycle Jacket, Shirt and Mask Set — view 3"
+    },
+    {
+     "src": "/products/peaceful-powerful-zipper-jacket-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Leggings, Motor Cycle Jacket, Shirt and Mask Set — view 4"
+    },
+    {
+     "src": "/products/peaceful-powerful-zipper-jacket-2.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Peaceful Powerful Leggings, Motor Cycle Jacket, Shirt and Mask Set — view 5"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 197.96,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 197.96,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 197.96,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 197.96,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-09 13:57:43"
+  },
+  {
+   "slug": "black-majic-leggings-and-string-shirt-set",
+   "legacy_slug": "black-majic-leggings-and-string-shirt-set",
+   "name": "Black Majic Leggings and Lace Back Shirt Set",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners. High performance drywicking100% polyester that have full color all over front sublimated t-shirts. Metal eyeholes with lace fabric. These shirts are true to size. Care handwash cold hang to dry no dryer no dry cleaners.",
+   "price": 95.98,
+   "compare_at_price": null,
+   "categories": [
+    "sets"
+   ],
+   "collection": "black-majic",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/black-majic-leggings-and-string-shirt-set-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Black Majic Leggings and Lace Back Shirt Set"
+    },
+    {
+     "src": "/products/blackmagic-leggings-1.webp",
+     "width": 1080,
+     "height": 1080,
+     "alt": "Black Majic Leggings and Lace Back Shirt Set — view 2"
+    },
+    {
+     "src": "/products/black-majic-leggings-and-string-shirt-set-3.webp",
+     "width": 1400,
+     "height": 1400,
+     "alt": "Black Majic Leggings and Lace Back Shirt Set — view 3"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 95.98,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 95.98,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 95.98,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 95.98,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 105.98,
+     "stock": 0,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 110.98,
+     "stock": 0,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-09 14:08:04"
+  },
+  {
+   "slug": "unleashed-leggings",
+   "legacy_slug": "unleashed-leggings",
+   "name": "Unleashed Leggings",
+   "description": "Pocket leggings 90% Polyester 10% spandex, full length standard fit, all over sublimated print, soft, stretchy, lightweight. Care machine wash cold hang to dry no dryer no dry cleaners.",
+   "price": 64.99,
+   "compare_at_price": null,
+   "categories": [
+    "leggings"
+   ],
+   "collection": "unleashed",
+   "is_new": false,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/unleashed-adult-t-shirt-and-leggings-set-2.webp",
+     "width": 1400,
+     "height": 1400,
+     "alt": "Unleashed Leggings"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 64.99,
+     "stock": 10,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 64.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 69.99,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2022-09-09 15:53:03"
+  },
+  {
+   "slug": "custom-cropped-signature-puffer-jacket",
+   "legacy_slug": "custom-cropped-signature-puffer-jacket",
+   "name": "Custom Cropped Signature Puffer Jacket",
+   "description": "Make a bold statement in the Custom Red Cropped Signature Puffer Jacket - where confidence, style, and identity come together effortlessly. Designed in a vibrant red colorway with signature ΔΣΘ detailing on the sleeves, this custom-crafted piece is made to stand out from every angle. The structured cropped silhouette enhances your shape while delivering lightweight warmth, making it perfect for both elevated looks and everyday wear. Whether you're stepping out for an event or styling a casual outfit, this jacket brings undeniable presence and pride to your wardrobe. Available in sizes Small through 2XL, ensuring a flattering fit for every woman. Exclusively designed. Made to represent.",
+   "price": 85,
+   "compare_at_price": null,
+   "categories": [
+    "jackets",
+    "womens"
+   ],
+   "collection": null,
+   "is_new": true,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-1.webp",
+     "width": 1000,
+     "height": 1000,
+     "alt": "Custom Cropped Signature Puffer Jacket"
+    },
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-2.webp",
+     "width": 1000,
+     "height": 1000,
+     "alt": "Custom Cropped Signature Puffer Jacket — view 2"
+    },
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-3.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Cropped Signature Puffer Jacket — view 3"
+    },
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-4.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Cropped Signature Puffer Jacket — view 4"
+    },
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-5.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Cropped Signature Puffer Jacket — view 5"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": "Black",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": "Black",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": "Black",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": "Black",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": "Black",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "S",
+     "color": "Burgundy",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": "Burgundy",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": "Burgundy",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": "Burgundy",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": "Burgundy",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "S",
+     "color": "Red",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": "Red",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": "Red",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": "Red",
+     "price": 85,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": "Red",
+     "price": 85,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2026-04-03 16:50:34"
+  },
+  {
+   "slug": "custom-cropped-signature-puffer-jacket-multi-print-sleeve-edition",
+   "legacy_slug": "custom-cropped-signature-puffer-jacket-multi-print-sleeve-edition",
+   "name": "Custom Cropped Signature Puffer Jacket Multi-Print Sleeve Edition",
+   "description": "Turn up the statement with the Custom Red Cropped Signature Puffer Jacket - Multi-Print Sleeve Edition. Designed in a bold red colorway with repeated detailing across the sleeves, this custom-crafted piece delivers maximum impact and unmistakable style. The all-over sleeve print adds a dynamic, eye-catching edge, making this jacket perfect for those who want to stand out and represent.",
+   "price": 125,
+   "compare_at_price": null,
+   "categories": [
+    "jackets",
+    "womens"
+   ],
+   "collection": null,
+   "is_new": true,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-multi-print-sleeve-edition-1.webp",
+     "width": 1000,
+     "height": 1000,
+     "alt": "Custom Cropped Signature Puffer Jacket Multi-Print Sleeve Edition"
+    },
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-multi-print-sleeve-edition-2.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Cropped Signature Puffer Jacket Multi-Print Sleeve Edition — view 2"
+    },
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-multi-print-sleeve-edition-3.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Cropped Signature Puffer Jacket Multi-Print Sleeve Edition — view 3"
+    },
+    {
+     "src": "/products/custom-cropped-signature-puffer-jacket-multi-print-sleeve-edition-4.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Cropped Signature Puffer Jacket Multi-Print Sleeve Edition — view 4"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "XS",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "S",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "4XL",
+     "color": "Black",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XS",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "S",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "4XL",
+     "color": "Red",
+     "price": 125,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2026-04-03 17:07:16"
+  },
+  {
+   "slug": "custom-long-signature-puffer-jacket",
+   "legacy_slug": "custom-long-signature-puffer-jacket",
+   "name": "Custom Long Signature Puffer Jacket",
+   "description": "Step into elevated luxury with the Custom Long Signature Puffer Jacket, designed for maximum warmth, style, and presence. Featuring a sleek black body paired with bold multi-print sleeves, this custom-crafted piece delivers a refined yet eye-catching look.",
+   "price": 159,
+   "compare_at_price": null,
+   "categories": [
+    "jackets",
+    "womens"
+   ],
+   "collection": null,
+   "is_new": true,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/custom-long-signature-puffer-jacket-1.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Long Signature Puffer Jacket"
+    },
+    {
+     "src": "/products/custom-long-signature-puffer-jacket-2.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Long Signature Puffer Jacket — view 2"
+    },
+    {
+     "src": "/products/custom-long-signature-puffer-jacket-3.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Long Signature Puffer Jacket — view 3"
+    },
+    {
+     "src": "/products/custom-long-signature-puffer-jacket-5.webp",
+     "width": 500,
+     "height": 500,
+     "alt": "Custom Long Signature Puffer Jacket — view 5"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 159,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 159,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 159,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 159,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 159,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 159,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "4XL",
+     "color": null,
+     "price": 159,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2026-04-03 17:54:15"
+  },
+  {
+   "slug": "custom-signature-motorcycle-jacket",
+   "legacy_slug": "custom-signature-motorcycle-jacket",
+   "name": "Custom Signature Motorcycle Jacket",
+   "description": "Custom sizes available upon request. Make a bold statement with the Custom Signature Motorcycle Jacket, where high-fashion design meets everyday versatility. Featuring a striking custom print and a structured asymmetrical silhouette, this piece is designed to stand out while elevating your entire look.",
+   "price": 125,
+   "compare_at_price": null,
+   "categories": [
+    "jackets",
+    "womens"
+   ],
+   "collection": null,
+   "is_new": true,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/custom-signature-motorcycle-jacket-1.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Signature Motorcycle Jacket"
+    },
+    {
+     "src": "/products/custom-signature-motorcycle-jacket-2.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Signature Motorcycle Jacket — view 2"
+    },
+    {
+     "src": "/products/custom-signature-motorcycle-jacket-4.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Signature Motorcycle Jacket — view 4"
+    },
+    {
+     "src": "/products/custom-signature-motorcycle-jacket-5.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Signature Motorcycle Jacket — view 5"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 125,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 125,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2026-04-03 17:58:56"
+  },
+  {
+   "slug": "custom-signature-statement-jacket-drawstring-edition",
+   "legacy_slug": "custom-signature-statement-jacket-drawstring-edition",
+   "name": "Custom Signature Statement Jacket - Drawstring Edition",
+   "description": "Step into bold, elevated fashion with the Custom Signature Statement Jacket - Drawstring Edition, designed for women who lead with confidence and style. Featuring an all-over custom print, this piece blends high-fashion design with powerful identity. Crafted from a heavy, high-quality material, this jacket delivers structure. durability, and warmth while maintaining a sleek, tailored silhouette.",
+   "price": 200,
+   "compare_at_price": null,
+   "categories": [
+    "jackets",
+    "womens"
+   ],
+   "collection": null,
+   "is_new": true,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/custom-signature-statement-jacket-drawstring-edition-1.webp",
+     "width": 1000,
+     "height": 1000,
+     "alt": "Custom Signature Statement Jacket - Drawstring Edition"
+    },
+    {
+     "src": "/products/custom-signature-statement-jacket-drawstring-edition-2.webp",
+     "width": 900,
+     "height": 900,
+     "alt": "Custom Signature Statement Jacket - Drawstring Edition — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 200,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 200,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 200,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 200,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2026-04-03 18:11:45"
+  },
+  {
+   "slug": "custom-scalloped-wrap-jacket",
+   "legacy_slug": "custom-scalloped-wrap-jacket",
+   "name": "Custom Scalloped Wrap Jacket",
+   "description": "Turn heads effortlessly with the Custom Scalloped Wrap Jacket, a statement piece designed to blend comfort, structure, and standout style. Featuring a unique scalloped back cut, this jacket adds movement and shape while creating a flattering, eye-catching silhouette from every angle.",
+   "price": 150,
+   "compare_at_price": null,
+   "categories": [
+    "jackets",
+    "womens"
+   ],
+   "collection": null,
+   "is_new": true,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/custom-scalloped-wrap-jacket-1.webp",
+     "width": 1000,
+     "height": 1000,
+     "alt": "Custom Scalloped Wrap Jacket"
+    },
+    {
+     "src": "/products/custom-scalloped-wrap-jacket-2.webp",
+     "width": 1000,
+     "height": 1000,
+     "alt": "Custom Scalloped Wrap Jacket — view 2"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 150,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 150,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 150,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 150,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2026-04-03 18:27:03"
+  },
+  {
+   "slug": "custom-statement-puffer-wrap-coat",
+   "legacy_slug": "custom-statement-puffer-wrap-coat",
+   "name": "Custom Statement Puffer Wrap Coat",
+   "description": "Make a bold entrance with the Custom Statement Puffer Wrap Coat, designed for the woman who embraces individuality and elevated style. This standout piece features a sleek, tailored silhouette with fitted sleeves and an extended back hem, creating a dramatic, fashion-forward shape that flatters from every angle.",
+   "price": 175,
+   "compare_at_price": null,
+   "categories": [
+    "jackets",
+    "womens"
+   ],
+   "collection": null,
+   "is_new": true,
+   "featured": false,
+   "images": [
+    {
+     "src": "/products/custom-statement-puffer-wrap-coat-1.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Statement Puffer Wrap Coat"
+    },
+    {
+     "src": "/products/custom-statement-puffer-wrap-coat-2.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Statement Puffer Wrap Coat — view 2"
+    },
+    {
+     "src": "/products/custom-statement-puffer-wrap-coat-3.webp",
+     "width": 800,
+     "height": 800,
+     "alt": "Custom Statement Puffer Wrap Coat — view 3"
+    }
+   ],
+   "variants": [
+    {
+     "sku": null,
+     "size": "S",
+     "color": null,
+     "price": 175,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "M",
+     "color": null,
+     "price": 175,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "L",
+     "color": null,
+     "price": 175,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "XL",
+     "color": null,
+     "price": 175,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "2XL",
+     "color": null,
+     "price": 200,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "3XL",
+     "color": null,
+     "price": 200,
+     "stock": null,
+     "image": null
+    },
+    {
+     "sku": null,
+     "size": "4XL",
+     "color": null,
+     "price": 200,
+     "stock": null,
+     "image": null
+    }
+   ],
+   "created_at": "2026-04-03 18:45:15"
+  }
+ ]
+}
