@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { ProductCard } from "@/components/product/ProductCard";
 import { ProductDetail } from "@/components/product/ProductDetail";
@@ -24,7 +25,36 @@ export async function generateMetadata({ params }: PageProps<"/product/[slug]">)
   };
 }
 
-export default async function ProductPage({ params }: PageProps<"/product/[slug]">) {
+export default function ProductPage({ params }: PageProps<"/product/[slug]">) {
+  // `params` is read inside Suspense so Next can regenerate the shared shell
+  // (slug unknown) at runtime on Netlify. Prerendered slugs still ship full HTML.
+  return (
+    <Suspense fallback={<ProductFallback />}>
+      <Product params={params} />
+    </Suspense>
+  );
+}
+
+function ProductFallback() {
+  return (
+    <section aria-busy="true" className="on-paper bg-paper pb-20 pt-8 text-ink lg:pt-12">
+      <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
+        <div className="mb-6 h-5 w-48 bg-ink/10" />
+        <div className="grid gap-10 lg:grid-cols-2">
+          <div className="aspect-square border-2 border-ink bg-white" />
+          <div className="space-y-4">
+            <div className="h-14 w-3/4 bg-ink/10" />
+            <div className="h-8 w-24 bg-ink/10" />
+            <div className="h-24 w-full bg-ink/10" />
+          </div>
+        </div>
+        <span className="sr-only">Loading product…</span>
+      </div>
+    </section>
+  );
+}
+
+async function Product({ params }: Pick<PageProps<"/product/[slug]">, "params">) {
   const { slug } = await params;
   const { products, collections } = await getCatalog();
   const product = products.find((p) => p.slug === slug);

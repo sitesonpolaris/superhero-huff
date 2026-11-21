@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { PageBanner } from "@/components/layout/PageBanner";
+import { Suspense } from "react";
+import { PageBanner, PageBannerFallback } from "@/components/layout/PageBanner";
 import { Listing } from "@/components/product/Listing";
 import { getCollection, getCollections } from "@/lib/catalog";
 import { issueLabel } from "@/lib/format";
@@ -22,7 +23,17 @@ export async function generateMetadata({ params }: PageProps<"/collections/[slug
   };
 }
 
-export default async function CollectionPage({ params }: PageProps<"/collections/[slug]">) {
+export default function CollectionPage({ params }: PageProps<"/collections/[slug]">) {
+  // `params` is read inside Suspense so Next can regenerate the shared shell
+  // (slug unknown) at runtime on Netlify. Prerendered slugs still ship full HTML.
+  return (
+    <Suspense fallback={<PageBannerFallback eyebrow="Character collection" />}>
+      <Collection params={params} />
+    </Suspense>
+  );
+}
+
+async function Collection({ params }: Pick<PageProps<"/collections/[slug]">, "params">) {
   const { slug } = await params;
   const data = await getCollection(slug);
   if (!data) notFound();

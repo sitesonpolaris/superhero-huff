@@ -35,3 +35,16 @@ export function PageBanner({
     </section>
   );
 }
+
+/** Suspense fallback with the banner's footprint. No heading, so the prerendered HTML has one real <h1>. */
+export function PageBannerFallback({ eyebrow }: { eyebrow: string }) {
+  return (
+    <section aria-busy="true" className="cut-bottom halftone relative overflow-hidden border-b border-line bg-ink pb-[calc(2.5vw+3rem)] pt-12 lg:pt-16">
+      <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
+        <p className="eyebrow text-yellow">{eyebrow}</p>
+        <div className="mt-3 h-[clamp(3rem,9vw,7.5rem)] w-2/3 max-w-xl bg-white/10" />
+        <span className="sr-only">Loading…</span>
+      </div>
+    </section>
+  );
+}

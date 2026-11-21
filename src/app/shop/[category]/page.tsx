@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { Listing } from "@/components/product/Listing";
-import { PageBanner } from "@/components/layout/PageBanner";
+import { PageBanner, PageBannerFallback } from "@/components/layout/PageBanner";
 import { getCatalog, getCategory } from "@/lib/catalog";
 
 const INTRO: Record<string, string> = {
@@ -29,7 +30,17 @@ export async function generateMetadata({ params }: PageProps<"/shop/[category]">
   };
 }
 
-export default async function CategoryPage({ params }: PageProps<"/shop/[category]">) {
+export default function CategoryPage({ params }: PageProps<"/shop/[category]">) {
+  // `params` is read inside Suspense so Next can regenerate the shared shell
+  // (category unknown) at runtime on Netlify. Prerendered categories still ship full HTML.
+  return (
+    <Suspense fallback={<PageBannerFallback eyebrow="Clothing" />}>
+      <Category params={params} />
+    </Suspense>
+  );
+}
+
+async function Category({ params }: Pick<PageProps<"/shop/[category]">, "params">) {
   const { category } = await params;
   const data = await getCategory(category);
   if (!data) notFound();
