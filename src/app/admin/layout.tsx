@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: { default: "Admin", template: "%s | A
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="on-paper min-h-[80svh] bg-paper text-ink">
-      <div className="mx-auto grid max-w-[1440px] gap-0 lg:grid-cols-[220px_1fr]">
+      <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-0 lg:grid-cols-[220px_minmax(0,1fr)]">
         <Suspense fallback={<div className="bg-ink lg:min-h-[80svh]" />}>
           <AdminNav />
         </Suspense>

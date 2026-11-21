@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 
 const LINKS = [
   { href: "/admin", label: "Dashboard" },
@@ -15,13 +16,20 @@ const LINKS = [
 export function AdminNav() {
   const path = usePathname();
   const active = (href: string) => (href === "/admin" ? path === "/admin" : path.startsWith(href));
+  const list = useRef<HTMLUListElement>(null);
+  // On phones the nav is a horizontal strip: bring the current section into view.
+  useEffect(() => {
+    const ul = list.current;
+    const a = ul?.querySelector<HTMLElement>('[aria-current="page"]');
+    if (ul && a && ul.scrollWidth > ul.clientWidth) ul.scrollTo({ left: a.offsetLeft - 16 });
+  }, [path]);
   return (
-    <aside className="border-b-2 border-ink bg-ink text-white lg:min-h-[80svh] lg:border-b-0 lg:border-r-2">
+    <aside className="min-w-0 border-b-2 border-ink bg-ink text-white lg:min-h-[80svh] lg:border-b-0 lg:border-r-2">
       <p className="eyebrow hidden px-5 pb-2 pt-8 text-yellow lg:block">Store admin</p>
       <nav aria-label="Admin">
-        <ul className="flex overflow-x-auto lg:flex-col">
+        <ul ref={list} className="flex snap-x overflow-x-auto [scrollbar-width:none] lg:snap-none lg:flex-col">
           {LINKS.map((l) => (
-            <li key={l.href}>
+            <li key={l.href} className="snap-start">
               <Link
                 href={l.href}
                 aria-current={active(l.href) ? "page" : undefined}

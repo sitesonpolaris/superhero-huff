@@ -191,9 +191,9 @@ export function ProductEditor({ initial, collections, categories }: { initial: P
           </div>
         </div>
         <p className="mt-2 text-xs text-slate">Leave stock empty to sell without tracking. A product with no sizes needs one variant with size left empty.</p>
-        <div className="mt-4 overflow-x-auto">
-          <table className="w-full min-w-[720px] text-left text-sm">
-            <thead>
+        <div className="mt-4 md:overflow-x-auto">
+          <table className="block w-full text-left text-sm md:table md:min-w-[720px]">
+            <thead className="hidden md:table-header-group">
               <tr className="border-b-2 border-ink">
                 <th className="py-2 pr-2">Size</th>
                 <th className="py-2 pr-2">Colour</th>
@@ -204,19 +204,23 @@ export function ProductEditor({ initial, collections, categories }: { initial: P
                 <th className="py-2" />
               </tr>
             </thead>
-            <tbody>
+            <tbody className="block space-y-3 md:table-row-group md:space-y-0">
               {variants.map((v) => (
-                <tr key={v.key} className="border-b border-ink/10">
-                  <td className="py-1.5 pr-2">
-                    <input list="sizes" value={v.size ?? ""} onChange={(e) => setV(v.key, { size: e.target.value || null })} className="field min-h-9 w-24 py-1 text-sm" aria-label="Size" />
+                <tr key={v.key} className="relative grid grid-cols-2 gap-x-3 gap-y-2 border-2 border-ink/15 p-3 pr-12 md:table-row md:border-0 md:border-b md:border-ink/10 md:p-0">
+                  <td className="block md:table-cell md:py-1.5 md:pr-2">
+                    <span aria-hidden="true" className="mb-1 block text-xs font-bold md:hidden">Size</span>
+                    <input list="sizes" value={v.size ?? ""} onChange={(e) => setV(v.key, { size: e.target.value || null })} className="field min-h-11 w-full py-1 text-base md:min-h-9 md:w-24 md:text-sm" aria-label="Size" />
                   </td>
-                  <td className="py-1.5 pr-2">
-                    <input value={v.color ?? ""} onChange={(e) => setV(v.key, { color: e.target.value || null })} className="field min-h-9 w-28 py-1 text-sm" aria-label="Colour" />
+                  <td className="block md:table-cell md:py-1.5 md:pr-2">
+                    <span aria-hidden="true" className="mb-1 block text-xs font-bold md:hidden">Colour</span>
+                    <input value={v.color ?? ""} onChange={(e) => setV(v.key, { color: e.target.value || null })} className="field min-h-11 w-full py-1 text-base md:min-h-9 md:w-28 md:text-sm" aria-label="Colour" />
                   </td>
-                  <td className="py-1.5 pr-2">
-                    <input type="number" min="0" step="0.01" value={v.price} onChange={(e) => setV(v.key, { price: Number(e.target.value) })} className="field min-h-9 w-24 py-1 text-sm" aria-label="Price" />
+                  <td className="block md:table-cell md:py-1.5 md:pr-2">
+                    <span aria-hidden="true" className="mb-1 block text-xs font-bold md:hidden">Price $</span>
+                    <input type="number" min="0" step="0.01" value={v.price} onChange={(e) => setV(v.key, { price: Number(e.target.value) })} className="field min-h-11 w-full py-1 text-base md:min-h-9 md:w-24 md:text-sm" aria-label="Price" />
                   </td>
-                  <td className="py-1.5 pr-2">
+                  <td className="block md:table-cell md:py-1.5 md:pr-2">
+                    <span aria-hidden="true" className="mb-1 block text-xs font-bold md:hidden">Stock</span>
                     <input
                       type="number"
                       min="0"
@@ -224,18 +228,22 @@ export function ProductEditor({ initial, collections, categories }: { initial: P
                       value={v.stock ?? ""}
                       placeholder="∞"
                       onChange={(e) => setV(v.key, { stock: e.target.value === "" ? null : Number(e.target.value) })}
-                      className="field min-h-9 w-20 py-1 text-sm"
+                      className="field min-h-11 w-full py-1 text-base md:min-h-9 md:w-20 md:text-sm"
                       aria-label="Stock"
                     />
                   </td>
-                  <td className="py-1.5 pr-2">
-                    <input value={v.sku ?? ""} onChange={(e) => setV(v.key, { sku: e.target.value || null })} className="field min-h-9 w-28 py-1 text-sm" aria-label="SKU" />
+                  <td className="block md:table-cell md:py-1.5 md:pr-2">
+                    <span aria-hidden="true" className="mb-1 block text-xs font-bold md:hidden">SKU</span>
+                    <input value={v.sku ?? ""} onChange={(e) => setV(v.key, { sku: e.target.value || null })} className="field min-h-11 w-full py-1 text-base md:min-h-9 md:w-28 md:text-sm" aria-label="SKU" />
                   </td>
-                  <td className="py-1.5 pr-2">
+                  <td className="block md:table-cell md:py-1.5 md:pr-2">
+                    <label className="flex min-h-11 items-center md:min-h-0">
                     <input type="checkbox" checked={v.active} onChange={(e) => setV(v.key, { active: e.target.checked })} className="size-5 accent-purple" aria-label="Active" />
+                    <span className="ml-2 text-sm font-semibold md:hidden">Active</span>
+                    </label>
                   </td>
-                  <td className="py-1.5 text-right">
-                    <button type="button" onClick={() => setVariants((vs) => vs.filter((x) => x.key !== v.key))} className="px-2 font-bold text-red" aria-label="Remove variant">
+                  <td className="absolute right-1 top-1 md:static md:table-cell md:py-1.5 md:text-right">
+                    <button type="button" onClick={() => setVariants((vs) => vs.filter((x) => x.key !== v.key))} className="flex size-11 items-center justify-center font-bold text-red md:inline md:size-auto md:px-2" aria-label="Remove variant">
                       ✕
                     </button>
                   </td>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { requireAdmin } from "@/lib/admin";
 import { cents, orderLabel } from "@/lib/format";
-import { AdminTitle, StatusPill } from "./ui";
+import { AdminTitle, OrderCards, StatusPill } from "./ui";
 
 export default async function AdminHome() {
   const { supabase } = await requireAdmin();
@@ -25,30 +25,36 @@ export default async function AdminHome() {
   return (
     <>
       <AdminTitle>Dashboard</AdminTitle>
-      <dl className="grid grid-cols-2 gap-4 xl:grid-cols-4">
+      <dl className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-4">
         {stats.map((s) => {
           const body = (
             <>
               <dt className="eyebrow text-slate">{s.label}</dt>
-              <dd className="display mt-2 text-4xl tabular-nums">{s.value}</dd>
+              <dd className="display mt-2 text-3xl tabular-nums sm:text-4xl">{s.value}</dd>
             </>
           );
           return s.href ? (
-            <Link key={s.label} href={s.href} className="border-2 border-ink bg-white p-5 shadow-panel hover:bg-yellow">
+            <Link key={s.label} href={s.href} className="border-2 border-ink bg-white p-4 shadow-panel hover:bg-yellow active:bg-yellow sm:p-5">
               {body}
             </Link>
           ) : (
-            <div key={s.label} className="border-2 border-ink bg-white p-5 shadow-panel">
+            <div key={s.label} className="border-2 border-ink bg-white p-4 shadow-panel sm:p-5">
               {body}
             </div>
           );
         })}
       </dl>
 
-      <div className="mt-10 grid gap-8 xl:grid-cols-[1.6fr_1fr]">
+      <div className="mt-8 grid grid-cols-[minmax(0,1fr)] gap-8 sm:mt-10 xl:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
         <section>
-          <h2 className="eyebrow mb-3">Recent orders</h2>
-          <div className="overflow-x-auto border-2 border-ink bg-white">
+          <div className="mb-3 flex items-baseline justify-between">
+            <h2 className="eyebrow">Recent orders</h2>
+            <Link href="/admin/orders" className="text-sm font-bold underline">
+              All orders
+            </Link>
+          </div>
+          <OrderCards orders={(recent.data ?? []).slice(0, 10)} empty="No orders in the last 30 days." />
+          <div className="hidden overflow-x-auto border-2 border-ink bg-white sm:block">
             <table className="w-full text-left text-sm">
               <thead className="bg-ink text-white">
                 <tr>
@@ -90,8 +96,8 @@ export default async function AdminHome() {
             {(lowStock.data ?? []).map((v) => {
               const p = v.product as unknown as { id: string; name: string };
               return (
-                <li key={v.id} className="flex items-center justify-between gap-3 px-3 py-2 text-sm">
-                  <Link href={`/admin/products/${p.id}`} className="truncate underline">
+                <li key={v.id} className="flex items-center justify-between gap-3 px-3 text-sm">
+                  <Link href={`/admin/products/${p.id}`} className="min-w-0 flex-1 truncate py-3 underline sm:py-2">
                     {p.name} <span className="text-slate">{[v.color, v.size].filter(Boolean).join(" / ")}</span>
                   </Link>
                   <span className={`font-bold tabular-nums ${v.stock === 0 ? "text-red" : ""}`}>{v.stock}</span>

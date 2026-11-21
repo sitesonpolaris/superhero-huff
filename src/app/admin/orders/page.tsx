@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { requireAdmin } from "@/lib/admin";
 import { cents, orderLabel } from "@/lib/format";
-import { AdminTitle, StatusPill } from "../ui";
+import { AdminTitle, OrderCards, StatusPill } from "../ui";
 
 const FILTERS = ["all", "paid", "fulfilled", "shipped", "delivered", "cancelled", "refunded"];
 
@@ -24,27 +24,31 @@ export default async function OrdersPage({ searchParams }: PageProps<"/admin/ord
     <>
       <AdminTitle>Orders</AdminTitle>
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-        <ul className="flex flex-wrap gap-2">
+        <ul className="-mx-4 flex w-[calc(100%+2rem)] gap-2 overflow-x-auto px-4 [scrollbar-width:none] sm:mx-0 sm:w-auto sm:flex-wrap sm:overflow-visible sm:px-0">
           {FILTERS.map((f) => (
-            <li key={f}>
+            <li key={f} className="shrink-0">
               <Link
                 href={f === "all" ? "/admin/orders" : `/admin/orders?status=${f}`}
-                className={`inline-block border-2 border-ink px-3 py-1.5 text-xs font-bold uppercase tracking-wider ${status === f ? "bg-ink text-yellow" : "bg-white hover:bg-yellow"}`}
+                className={`inline-block border-2 border-ink px-3 py-2.5 text-xs sm:py-1.5 font-bold uppercase tracking-wider ${status === f ? "bg-ink text-yellow" : "bg-white hover:bg-yellow"}`}
               >
                 {f}
               </Link>
             </li>
           ))}
         </ul>
-        <form className="flex">
+        <form className="flex w-full sm:w-auto">
           <label htmlFor="oq" className="sr-only">
             Search orders
           </label>
-          <input id="oq" name="q" defaultValue={q} placeholder="Order # or email" className="field min-h-10 w-56 py-1.5 text-sm" />
-          <button className="btn btn-ink min-h-10 shadow-none">Search</button>
+          <input id="oq" name="q" defaultValue={q} placeholder="Order # or email" className="field min-h-11 min-w-0 flex-1 py-1.5 text-base sm:min-h-10 sm:w-56 sm:flex-none sm:text-sm" />
+          <button className="btn btn-ink min-h-11 px-4 shadow-none sm:min-h-10 sm:px-6">Search</button>
         </form>
       </div>
-      <div className="overflow-x-auto border-2 border-ink bg-white">
+      <OrderCards
+        orders={(orders ?? []).map((o) => ({ ...o, items: (o.order_items ?? []).reduce((n: number, i: { quantity: number }) => n + i.quantity, 0) }))}
+        empty="No orders match."
+      />
+      <div className="hidden overflow-x-auto border-2 border-ink bg-white sm:block">
         <table className="w-full text-left text-sm">
           <thead className="bg-ink text-white">
             <tr>

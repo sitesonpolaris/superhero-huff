@@ -30,10 +30,35 @@ export default async function ProductsPage({ searchParams }: PageProps<"/admin/p
         <label htmlFor="pq" className="sr-only">
           Search products
         </label>
-        <input id="pq" name="q" defaultValue={q} placeholder="Search by name" className="field min-h-10 py-1.5 text-sm" />
-        <button className="btn btn-ink min-h-10 shadow-none">Search</button>
+        <input id="pq" name="q" defaultValue={q} placeholder="Search by name" className="field min-h-11 min-w-0 flex-1 py-1.5 text-base sm:min-h-10 sm:text-sm" />
+        <button className="btn btn-ink min-h-11 px-4 shadow-none sm:min-h-10 sm:px-6">Search</button>
       </form>
-      <div className="overflow-x-auto border-2 border-ink bg-white">
+      <ul className="divide-y divide-ink/10 border-2 border-ink bg-white sm:hidden">
+        {(products ?? []).map((p) => {
+          const { stock, img } = summary(p);
+          return (
+            <li key={p.id}>
+              <Link href={`/admin/products/${p.id}`} className="flex items-center gap-3 px-3 py-3 active:bg-paper">
+                <span className="relative size-14 shrink-0 border border-ink/20 bg-white">{img && <Image src={img} alt="" fill sizes="56px" className="object-contain p-0.5" />}</span>
+                <span className="min-w-0 flex-1">
+                  <span className="line-clamp-2 font-bold leading-snug">{p.name}</span>
+                  <span className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+                    <span className="font-bold tabular-nums">{money(Number(p.price))}</span>
+                    <span className="text-slate">·</span>
+                    {stock === null ? <span className="text-slate">Stock not tracked</span> : <span className={stock === 0 ? "font-bold text-red" : ""}>{stock} in stock</span>}
+                    <Flags p={p} />
+                  </span>
+                </span>
+                <span aria-hidden="true" className="text-slate">
+                  ›
+                </span>
+              </Link>
+            </li>
+          );
+        })}
+        {!products?.length && <li className="px-4 py-8 text-center text-sm text-slate">No products match.</li>}
+      </ul>
+      <div className="hidden overflow-x-auto border-2 border-ink bg-white sm:block">
         <table className="w-full text-left text-sm">
           <thead className="bg-ink text-white">
             <tr>
@@ -46,10 +71,7 @@ export default async function ProductsPage({ searchParams }: PageProps<"/admin/p
           </thead>
           <tbody className="divide-y divide-ink/10">
             {(products ?? []).map((p) => {
-              const vs = (p.variants ?? []).filter((v: { active: boolean }) => v.active) as { stock: number | null }[];
-              const tracked = vs.filter((v) => v.stock !== null);
-              const stock = tracked.length ? tracked.reduce((n, v) => n + (v.stock ?? 0), 0) : null;
-              const img = (p.images as { src: string }[])?.[0]?.src;
+              const { stock, img } = summary(p);
               return (
                 <tr key={p.id} className="hover:bg-paper">
                   <td className="px-3 py-2">
@@ -61,9 +83,7 @@ export default async function ProductsPage({ searchParams }: PageProps<"/admin/p
                   <td className="px-3 py-2 text-slate">{(p.categories as string[]).join(", ")}</td>
                   <td className="px-3 py-2 tabular-nums">{stock === null ? <span className="text-slate">Not tracked</span> : <span className={stock === 0 ? "font-bold text-red" : ""}>{stock}</span>}</td>
                   <td className="space-x-1 px-3 py-2">
-                    {!p.active && <span className="bg-paper-2 px-2 py-0.5 text-xs font-bold uppercase">Hidden</span>}
-                    {p.is_new && <span className="bg-yellow px-2 py-0.5 text-xs font-bold uppercase">New</span>}
-                    {p.featured && <span className="bg-purple px-2 py-0.5 text-xs font-bold uppercase text-white">Featured</span>}
+                    <Flags p={p} />
                   </td>
                   <td className="px-3 py-2 text-right tabular-nums">{money(Number(p.price))}</td>
                 </tr>
@@ -72,6 +92,26 @@ export default async function ProductsPage({ searchParams }: PageProps<"/admin/p
           </tbody>
         </table>
       </div>
+    </>
+  );
+}
+
+type Row = { active: boolean; is_new: boolean; featured: boolean; images: unknown; variants: unknown };
+
+function summary(p: Row) {
+  const vs = ((p.variants ?? []) as { stock: number | null; active: boolean }[]).filter((v) => v.active);
+  const tracked = vs.filter((v) => v.stock !== null);
+  const stock = tracked.length ? tracked.reduce((n, v) => n + (v.stock ?? 0), 0) : null;
+  const img = (p.images as { src: string }[] | null)?.[0]?.src;
+  return { stock, img };
+}
+
+function Flags({ p }: { p: Row }) {
+  return (
+    <>
+      {!p.active && <span className="bg-paper-2 px-2 py-0.5 text-xs font-bold uppercase">Hidden</span>}
+      {p.is_new && <span className="bg-yellow px-2 py-0.5 text-xs font-bold uppercase">New</span>}
+      {p.featured && <span className="bg-purple px-2 py-0.5 text-xs font-bold uppercase text-white">Featured</span>}
     </>
   );
 }
